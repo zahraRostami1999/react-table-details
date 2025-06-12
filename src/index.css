@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4 {
+  color: #333;
+}
+
+.main-table,
+.sub-table,
+.small-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+.main-table th,
+.sub-table th,
+.small-table th,
+.main-table td,
+.sub-table td,
+.small-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+.main-table tr:hover,
+.sub-table tr:hover {
+  background-color: #f0f8ff;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #d0ebff !important;
+}
+
+.details-section {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid #ddd;
+}
+
+.small-table-section {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #eef9ff;
+  border-radius: 6px;
+  border: 1px solid #bde0fe;
+}
+
+.small-table-section table {
+  margin-top: 0.5rem;
+}
+
+.small-table td:first-child {
+  font-weight: bold;
+  width: 30%;
+  background-color: #f6fafe;
+}
